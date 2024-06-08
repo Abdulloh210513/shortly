@@ -66,10 +66,12 @@ main {
   justify-content: center;
   align-items: center;
   padding: 52px 64px;
-  gap: 21px 
+  gap: 21px;
   display: flex;
   position: absolute;
   top: 600px;
+  left: 166px;
+  right: 166px;
 }
 .btn {
   padding: 9px 23px;
@@ -82,6 +84,7 @@ main {
   width: 188px;
   height: 64px;
   top: 761px;
+  margin-left: 20px;
 }
 .iu {
   width: 769px;
@@ -101,10 +104,10 @@ main {
 .today h2 {
   text-align: center;
   color: white;
-  font-family: Poppins;
+  font-family: "Poppins";
   padding-top: 100px;
 }
-.click{
+.click {
   padding: 9px 23px;
   background-color: #2bd0d0;
   color: white;
@@ -113,32 +116,33 @@ main {
   border: none;
   border-radius: 20px;
   margin-left: 620px;
-  margin-top: 13px  ;
-
+  margin-top: 13px;
 }
-.icons{
-    display: flex;
-    gap: 24px;
+.icons {
+  display: flex;
+  gap: 24px;
 }
-footer{
-    background-color: black;
-    align-items: center;    
-    width: 1440px;
-    height: 150.2px;
-    top: 1071px;
-
+footer {
+  background-color: black;
+  align-items: center;
+  width: 100%;
+  height: 150.2px;
+  top: 1071px;
 }
 .foot-left a {
-    margin-top: 6px;
-    color:  white;
-    font-weight: 700;
-    font-size: 15px;
-    margin-left: 45px;
+  margin-top: 6px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 45px;
     font-family: Poppins;
 }
-.dividi{
+.dividi {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 55px;
+}
+.today button{
+margin-left: 670px;
 }
